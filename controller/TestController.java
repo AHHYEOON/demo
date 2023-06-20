@@ -27,6 +27,6 @@ public class TestController {
 		ResponseDTO<String> response =
 ResponseDTO.<String>builder().data(list).build();
 		return ResponseEntity.ok().body(response);
-		}
-	
+
+	}
 }
